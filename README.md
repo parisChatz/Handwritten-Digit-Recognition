@@ -27,3 +27,13 @@ for symmetry breaking. One effective strategy for random initialization
 is to randomly select values for Θ (l) uniformly in the range {-e,+e}
 You should use e = 0.12. 2 This range of values ensures that the parameters
 are kept small and makes the learning more efficient.
+
+# Backpropagation
+Given a training example (x (t) , y (t) ), we will first run a “forward pass” to compute
+all the activations throughout the network, including the output value of the
+hypothesis hΘ(x). Then, for each node j in layer l, we would like to compute
+an “error term” δj(l) that measures how much that node was “responsible”
+for any errors in our output. For an output node, we can directly measure the difference between the 
+network’s activation and the true target value, and use that to define δj(3)
+(since layer 3 is the output layer).  For the hidden units, you will compute δj(l) 
+based on a weighted average of the error terms of the nodes in layer(l + 1).
