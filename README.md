@@ -1,4 +1,4 @@
-# Handwritten_digits_Recognition
+# Handwritten digits Recognition
 Neural Netwrok Implementation to recognise hand-written digits 
 In this project neural networks are used torecognize handwritten digits (from 0 to 9).
 
@@ -37,3 +37,7 @@ for any errors in our output. For an output node, we can directly measure the di
 network’s activation and the true target value, and use that to define δj(3)
 (since layer 3 is the output layer).  For the hidden units, you will compute δj(l) 
 based on a weighted average of the error terms of the nodes in layer(l + 1).
+
+# Learning parameters using fmincg
+After implementING the neural network cost function and gradient computation, 
+the next step is to use fmincg to learn a good set parameters.
