@@ -5,6 +5,13 @@ In this project neural networks are used torecognize handwritten digits (from 0 
 # Important notes
 Scripts still in develpoment. Training and Testing of NN is done by the same data set.
 
+# Improvement notes
+Learing Curves
+Training set (60% of data) and Testing set (40%)
+Changing NN architecture
+Getting more Data
+F1 score
+
 # DATA SET
 Each training example is a 20 pixel by 20 pixel grayscale image of the digit. 
 Each pixel is represented by a floating point number indicating the grayscale 
@@ -19,7 +26,7 @@ Therefore, a “0” digit is labeled as “10”, while the digits “1” to �
 as “1” to “9” in their natural order.
 
 # NEURAL NETWORK
-The neural network has 3 layers – an input layer, a hidden layer and an output layer.
+The neural network has 3 layers(400x25x10) – an input layer, a hidden layer and an output layer.
 Recall that our inputs are pixel values ofdigit images. 
 Since the images are of size 20×20, this gives us 400 input layer
 units (excluding the extra bias unit which always outputs +1).
