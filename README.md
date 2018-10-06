@@ -2,6 +2,9 @@
 Neural Netwrok Implementation to recognise hand-written digits 
 In this project neural networks are used torecognize handwritten digits (from 0 to 9).
 
+# Important notes
+Scripts still in develpoment. Training and Testing of NN is done by the same data set.
+
 # DATA SET
 Each training example is a 20 pixel by 20 pixel grayscale image of the digit. 
 Each pixel is represented by a floating point number indicating the grayscale 
