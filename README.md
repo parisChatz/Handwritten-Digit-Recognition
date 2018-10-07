@@ -1,5 +1,5 @@
 # Handwritten digits Recognition
-Neural Netwrok Implementation to recognise hand-written digits 
+Neural Network Implementation to recognise hand-written digits 
 In this project neural networks are used torecognize handwritten digits (from 0 to 9).
 
 # Important notes
